@@ -1,4 +1,3 @@
-
 package onlineShop.entity;
 
 import java.io.Serializable;
