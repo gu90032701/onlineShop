@@ -1,6 +1,8 @@
 
 package onlineShop.dao;
 
+import onlineShop.entity.Authorities;
+import onlineShop.entity.User;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -8,9 +10,7 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import onlineShop.entity.Authorities;
 import onlineShop.entity.Customer;
-import onlineShop.entity.User;
 
 @Repository
 public class CustomerDao {
